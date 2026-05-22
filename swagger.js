@@ -9,7 +9,7 @@ const options = {
             description: 'MERN Leave Management Backend',
         },
         servers: [{
-            url: process.env.SWAGGER_SERVER_URL || 'https://final-leave-management-system-tpdz.vercel.app/login',
+            url: process.env.SWAGGER_SERVER_URL || 'https://final-leave-management-system-tpdz.vercel.app',
             description: 'Development server',
         }],
         components: {
