@@ -8,6 +8,12 @@
     rel="stylesheet"
     href="https://unpkg.com/swagger-ui-dist/swagger-ui.css"
   />
+
+  <style>
+    .swagger-ui .info .link {
+      display: none;
+    }
+  </style>
 </head>
 
 <body>
@@ -23,9 +29,9 @@
         presets: [
           SwaggerUIBundle.presets.apis
         ],
-      layout: "BaseLayout"
-    });
-  };
+        layout: "BaseLayout"
+      });
+    };
   </script>
 </body>
 </html>
